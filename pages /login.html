@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+  <body>
+    <header style="display: flex;">
+      <nav class="nav-bar">
+
+
+        <div class="nav-list">
+
+          <a href="login.html" class="nav-item">
+            <img src="https://img.icons8.com/?size=256&id=quuyJoZCkYni&format=png"" alt="Logo" width="80px">
+          </a>
+          
+          <ul>
+        
+              <li  class="nav-icone">
+                <a href="cronogramas.html" class="nav-link">Cronogramas</a>
+              </li>
+  
+              <li  class="nav-icone">
+                <a href="sites.html" class="nav-link">Sites</a>
+              </li>
+  
+          </ul>
+  
+  
+          <div class="login-button">
+            <button><a href="login.html" class="nav-link">Login</a></button>
+  
+          </div>
+  
+        </div>
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()" class="botao-menu-mobile">
+            <img class="icon" src="https://img.icons8.com/?size=256&id=quuyJoZCkYni&format=png" alt="">
+            <span class="titulo-menu-mobile">Conquista Diaria</span>
+          </button>
+        </div>
+      </nav>
+  
+      <div class="mobile-menu">
+        <ul>
+              
+          <a href="index.html">
+            <img src="https://img.icons8.com/?size=256&id=KIoFrHf2_G3_&format=png" alt="Logo" width="80px">
+          </a>
+  
+          <a href="login.html" class="nav-item">
+            <img src="https://img.icons8.com/?size=256&id=KIoFrHf2_G3_&format=png" alt="Logo" width="80px">
+          </a>
+
+    
+          <li  class="nav-item">
+            <a href="cronogramas.html" class="nav-link">Cronogramas</a>
+          </li>
+
+          <li  class="nav-item">
+            <a href="sites.html" class="nav-link">Sites</a>
+          </li>
+  
+      </ul>
+  
+  
+      <div class="login-button">
+        <button><a href="login.html">Login</a></button>
+  
+      </div>
+        </div>
+    </div>
+    </header>
+    <main>
+    
+
+     
+          <main>
+              <div class="login-container">
+                  <form class="login-form">
+                      <h1>Já estuda com a gente?</h1>
+
+                      <h2>Faça seu login e bons estudos!</h2>
+                     
+                      <label for="id_username">Email:</label>
+                      <input type="text" name="username" id="id_username" required>
+      
+                      <label for="id_password">Senha:</label>
+                      <input type="password" name="password" id="id_password" required>
+
+
+                      <ul>
+                        <li>
+                            <a href="/cadastro.html">Cadastro</a>
+                        </li>
+                      </ul>
+
+              
+                        <button type="button" onclick="redirecionar('/index.html')">Login</button>
+
+                        <ul>
+                          <li>
+                              <a href="/senha.html">Esqueci a senha</a>
+                          </li>
+                        </ul>
+                        
+              
+              
+                  </form>
+      
+              </div>
+          </main>
+    
+      
+    <footer>
+        &copy; Conquista Diaria 2023
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

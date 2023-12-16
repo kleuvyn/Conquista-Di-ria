@@ -1,0 +1,279 @@
+body {
+    height: 100px;
+    width: 100%; 
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #0d68df46;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #0d68df ;
+}
+
+.login-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #0d68df;
+    border-radius: 80px;
+}
+
+.login-form button {
+    display: flex;
+    padding: 12px;
+    background-color: #0d68df;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #3f24da;
+}
+.login-button button {
+    margin: 0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0d68df;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+ 
+}
+
+.nav-icone{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.cadastro-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.cadastro-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cadastro-form button {
+    padding: 10px;
+    background-color: #0d68df;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cadastro-form button:hover {
+    background-color: #3f24da;
+}
+
+.cadastro-form button:hover {
+    background-color: #0d68df;
+    
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #006eff28;
+    flex-grow: 1;
+    height: 100px;
+}
+
+
+.nav-list {
+
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ 
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #0d68df;
+    font-weight: 400;
+    margin: 0;
+    
+}
+
+
+li{
+    margin: 10px;
+    background-position: center;
+    list-style: none;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+   
+a {
+    display: flex;
+    justify-content: center;
+    color:#003d8c;
+    text-decoration: none;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;  
+    color: #021f45;
+}
+
+h2{
+    color: #003d8c;
+}
+
+
+footer{
+    height:60px;
+    width: 100%;
+    text-align: center;
+    background-color: #006eff ;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: #fff;
+	margin-top: 100px;
+    margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+        justify-content: center;
+        margin: 0;
+
+    }
+    .icon{
+        width: 25px
+    }
+    .titulo-menu-mobile{
+        font-size: 18px;
+        font-family: 'Baskerville', 'serif';
+        color: #0d68df;
+    }
+    .botao-menu-mobile {
+        display: flex;
+        align-items: center;
+    }
+    .nav-item {
+        display: none;
+        margin: 0;
+
+    }
+
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+      
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
